@@ -10,3 +10,12 @@ class InvertedIndexFunc:
                 idxx.append(str_index)
                 index_dict[word] = idxx
         return index_dict
+
+
+if __name__ == "__main__":
+    lst= [['lake', 'monona', 'university'],
+          ['monona', 'research', 'area'],
+          ['lake', 'mendota', 'monona', 'area']]
+    tableIndex= InvertedIndexFunc()
+    print(tableIndex(lst))
+
