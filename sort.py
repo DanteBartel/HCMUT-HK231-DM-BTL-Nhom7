@@ -36,7 +36,18 @@ class FrequentSort(Sort_Func):
         datasetCopy = copy.deepcopy(dataset)
         return _sortWithFrequent(dataset=datasetCopy, ascending=ascending)
 
-
+# dataset = [
+#     [
+#         ['apple', 'banana', 'orange'],
+#         ['grape', 'kiwi'],
+#         ['banana', 'orange']
+#     ],
+#     [
+#         ['apple', 'strawberry'],
+#         ['kiwi', 'orange'],
+#         ['strawberry', 'grape', 'banana']
+#     ]
+# ]
 def _frequent(dataset: list[list[list[str]]]) -> dict[str, int]:
     frequent_dict = dict()  # type:dict[str,int]
     for lst in dataset:
