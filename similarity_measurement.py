@@ -191,7 +191,7 @@ class GeneralizedJaccard(Similarity_Measurement):
 
         return ans_edges
 
-class JascardMeasurement(Similarity_Measurement):
+class JaccardMeasurement(Similarity_Measurement):
     threshold: int
 
     def __init__(self, threshold: int) -> None:
@@ -218,7 +218,7 @@ class JascardMeasurement(Similarity_Measurement):
 if __name__ == "__main__":
     str_x = ["a", "b", "c"]
     str_y = ["a", "c"]
-    measureFunc = JascardMeasurement(0.5)
+    measureFunc = JaccardMeasurement(0.5)
     assert measureFunc(str_x, str_y) == True
 
     # str_x = ["a", "b", "c"]
