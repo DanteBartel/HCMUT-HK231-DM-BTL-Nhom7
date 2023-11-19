@@ -5,14 +5,9 @@ def evaluate(result, gt):
             t += 1
         else:
             f += 1
-    print('t=',t)
-    print('result=',len(result))
-    print('gt=',len(gt))
     """ Return: 3 values respectively
     1. percentage of true predictions over all predictions
     2. percentage of false predictions over all predictions
     3. percentage of true predictions over ground truth
     """
-    if (len(result)==0):
-        return 0, 0, round(float(t/len(gt)),4)
     return round(float(t/len(result)),4), round(float(f/len(result)),4), round(float(t/len(gt)),4)

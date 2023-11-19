@@ -7,7 +7,7 @@ class BoundFiltering(object):
         self.sm = sm
         return
 
-    def __call__(self, str_x: list[str], str_y: list[str]) -> int:
+    def __call__(self) -> int:
         """
         + Calculating upper bound and lower bound.
         + Return the answer or skip based on bounds.
@@ -15,7 +15,7 @@ class BoundFiltering(object):
         + 1 means this pair is an answer
         + 2 means need to calculate Similarity Measurement
         """
-        ub, lb = self.sm.bound(str_x, str_y)
+        ub, lb = self.sm.bound()
         if ub < self.sm.threshold: return 0
         elif lb >= self.sm.threshold: return 1
         else: return 2
