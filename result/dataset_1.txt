@@ -1,0 +1,49 @@
+Chia thành từng từ nhỏ kể cả việc chia số điện thoại
+# characterThreshold = 0.5
+tokenThresholds = 0.1, result = (0.0019 0.9981 1.0), time = 11.032704830169678s
+tokenThresholds = 0.2, result = (0.0097 0.9903 1.0), time = 12.060720920562744s
+tokenThresholds = 0.3, result = (0.0275 0.9725 1.0), time = 13.054439544677734s
+tokenThresholds = 0.4, result = (0.0721 0.9279 1.0), time = 13.409936666488647s
+tokenThresholds = 0.5, result = (0.1074 0.8926 0.9888), time = 13.376568794250488s
+tokenThresholds = 0.6, result = (0.2179 0.7821 0.9551), time = 13.12647032737732s
+tokenThresholds = 0.7, result = (0.4072 0.5928 0.8876), time = 12.887717247009277s
+tokenThresholds = 0.8, result = (0.4205 0.5795 0.8315), time = 13.421088695526123s
+tokenThresholds = 0.9, result = (0.4048 0.5952 0.764), time = 13.022051811218262s
+
+# characterThreshold = 0.7
+tokenThresholds = 0.1, result = (0.0019 0.9981 1.0), time = 20.667803287506104s
+tokenThresholds = 0.2, result = (0.0097 0.9903 1.0), time = 20.822715997695923s
+tokenThresholds = 0.3, result = (0.0275 0.9725 1.0), time = 19.87549614906311s
+tokenThresholds = 0.4, result = (0.0721 0.9279 1.0), time = 19.83128333091736s
+tokenThresholds = 0.5, result = (0.1074 0.8926 0.9888), time = 20.34718656539917s
+tokenThresholds = 0.6, result = (0.2179 0.7821 0.9551), time = 20.240732192993164s
+tokenThresholds = 0.7, result = (0.4072 0.5928 0.8876), time = 19.759615182876587s
+tokenThresholds = 0.8, result = (0.4205 0.5795 0.8315), time = 19.385106086730957s
+tokenThresholds = 0.9, result = (0.4048 0.5952 0.764), time = 20.09628653526306s
+
+##########################################################################
+Chia thành từng từ nhỏ và ghép chung các từ trong list ["st. ", "w. ", "s. ", "n. ", "e. ", "ave. "] nếu có vào từ đi sau liền kề với nó
+
+# characterThreshold = 0.5
+tokenThresholds = 0.1, result = (0.0014 0.9986 1.0), time = 10.486407279968262s
+tokenThresholds = 0.2, result = (0.004 0.996 1.0), time = 10.669140815734863s
+tokenThresholds = 0.3, result = (0.0151 0.9849 1.0), time = 12.636157035827637s
+tokenThresholds = 0.4, result = (0.0359 0.9641 1.0), time = 12.466438055038452s
+tokenThresholds = 0.5, result = (0.0978 0.9022 0.9888), time = 12.543655633926392s
+tokenThresholds = 0.6, result = (0.1581 0.8419 0.9663), time = 12.527566909790039s
+tokenThresholds = 0.7, result = (0.2051 0.7949 0.8989), time = 12.55897831916809s
+tokenThresholds = 0.8, result = (0.3045 0.6955 0.8315), time = 12.732401609420776s
+tokenThresholds = 0.9, result = (0.3636 0.6364 0.764), time = 12.5244882106781s
+
+# characterThreshold = 0.7
+tokenThresholds = 0.1, result = (0.002 0.998 1.0), time = 10.635744571685791s
+tokenThresholds = 0.2, result = (0.0054 0.9946 1.0), time = 11.144375085830688s
+tokenThresholds = 0.3, result = (0.0594 0.9406 1.0), time = 13.073394060134888s
+tokenThresholds = 0.4, result = (0.0736 0.9264 1.0), time = 12.422406196594238s
+tokenThresholds = 0.5, result = (0.1479 0.8521 0.9888), time = 12.551596879959106s
+tokenThresholds = 0.6, result = (0.2632 0.7368 0.9551), time = 12.601484775543213s
+tokenThresholds = 0.7, result = (0.4072 0.5928 0.8876), time = 12.620182514190674s
+tokenThresholds = 0.8, result = (0.4134 0.5866 0.8315), time = 13.410959243774414s
+tokenThresholds = 0.9, result = (0.4 0.6 0.764), time = 14.35575270652771s
+
+##########################################################################

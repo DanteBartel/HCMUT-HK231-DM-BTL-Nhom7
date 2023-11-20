@@ -1,0 +1,11 @@
+# dataset 02 - Chi xet name
+# characterThreshold = 0.7
+tokenThreshold = 0.1, result = (0.0096 0.9904 0.9805), time = 191.06714701652527s
+tokenThreshold = 0.2, result = (0.0579 0.9421 0.9247), time = 187.77501678466797s
+tokenThreshold = 0.3, result = (0.1742 0.8258 0.776), time = 185.51880383491516s
+tokenThreshold = 0.4, result = (0.3167 0.6833 0.6022), time = 184.7016477584839s
+tokenThreshold = 0.5, result = (0.4284 0.5716 0.4033), time = 183.2164158821106s
+tokenThreshold = 0.6, result = (0.614 0.386 0.2454), time = 185.78702878952026s
+tokenThreshold = 0.7, result = (0.6935 0.3065 0.1283), time = 183.5831274986267s
+tokenThreshold = 0.8, result = (0.9194 0.0806 0.053), time = 184.93329405784607s
+tokenThreshold = 0.9, result = (0.9643 0.0357 0.0251), time = 184.9845952987671s

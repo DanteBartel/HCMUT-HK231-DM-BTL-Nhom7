@@ -2,7 +2,7 @@ import sys
 sys.path.append('..')
 from similarity_measurement import GeneralizedJaccard, EditDistanceMeasurement
 from bound_filtering import BoundFiltering
-from dataloader.d02_loader import d02_loader
+from dataloader.d02_01_loader import d02_loader
 from datetime import datetime
 
 # ----------------------------------------------------------------
@@ -12,8 +12,8 @@ formatted_datetime = current_datetime.strftime("%Y%m%d_%H%M")
 file_name = f"results/exp01_{formatted_datetime}.txt"
 
 # ----------------------------------------------------------------
-tokenThreshold = 0.2
-characterThreshold = 0.5
+tokenThreshold = 0.5
+characterThreshold = 0.7
 measureFunc = GeneralizedJaccard(tokenThreshold, EditDistanceMeasurement, characterThreshold)
 choosingFunc = BoundFiltering(measureFunc)
 data_x, data_y, gt = d02_loader()
