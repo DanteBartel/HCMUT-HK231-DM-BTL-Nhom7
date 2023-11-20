@@ -10,4 +10,6 @@ def evaluate(result, gt):
     2. percentage of false predictions over all predictions
     3. percentage of true predictions over ground truth
     """
+
+    if (len(result)==0): return 0,0,round(float(t/len(gt)),4)
     return round(float(t/len(result)),4), round(float(f/len(result)),4), round(float(t/len(gt)),4)

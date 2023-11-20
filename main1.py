@@ -65,16 +65,19 @@ def InvertedIndexMethod(
 
 if __name__ == "__main__":
 
-    data_x, data_y, gt = d09_loader()
+    data_x, data_y, gt = d02_loader()
     
     invertedIndexFunc = InvertedIndexFunc()
+    import time
 
     for i in range(1,11):
+        start = time.time()
         measureFunc = JaccardMeasurement(0.1*i)
         print(f"JaccardMeasurement: Inverted Index method k={0.1*i} ")  
         result_2 = InvertedIndexMethod(data_x, data_y,measureFunc,invertedIndexFunc)
         top2, fop2, tog2 = evaluate(result_2, gt)
-        print("Percentage of true predictions over all predictions: {}\nPercentage of false predictions over all prediction: {}\nPercentage of true predictions over ground truth: {}".format(top2, fop2, tog2))
+        print("Percentage of true predictions over all predictions: {}\nPercentage of false predictions over all prediction: {}\nPercentage of true predictions over ground truth: {}\nTime: {}".format(top2, fop2, tog2,time.time() - start))
+        print("--------------------------------")
         
 
 #     print("JaccardMeasurement: Dredging method ")  
