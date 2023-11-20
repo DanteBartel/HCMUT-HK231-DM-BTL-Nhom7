@@ -65,7 +65,7 @@ def InvertedIndexMethod(
 
 if __name__ == "__main__":
 
-    data_x, data_y, gt = d02_loader()
+    data_x, data_y, gt = d09_loader()
     
     invertedIndexFunc = InvertedIndexFunc()
     import time

@@ -1,72 +1,62 @@
-DATA SET 01
+DATA SET 02
 
 JaccardMeasurement: Inverted Index method k=0.1 
-t= 930
-result= 20635
-gt= 1076
+JaccardMeasurement: Inverted Index method k=0.1 
 Percentage of true predictions over all predictions: 0.0451
 Percentage of false predictions over all prediction: 0.9549
 Percentage of true predictions over ground truth: 0.8643
+Time: 3.086209535598755
+--------------------------------
 JaccardMeasurement: Inverted Index method k=0.2 
-t= 453
-result= 2480
-gt= 1076
 Percentage of true predictions over all predictions: 0.1827
 Percentage of false predictions over all prediction: 0.8173
 Percentage of true predictions over ground truth: 0.421
+Time: 2.941816568374634
+--------------------------------
 JaccardMeasurement: Inverted Index method k=0.30000000000000004 
-t= 114
-result= 199
-gt= 1076
 Percentage of true predictions over all predictions: 0.5729
 Percentage of false predictions over all prediction: 0.4271
 Percentage of true predictions over ground truth: 0.1059
+Time: 2.9142611026763916
+--------------------------------
 JaccardMeasurement: Inverted Index method k=0.4 
-t= 18
-result= 21
-gt= 1076
 Percentage of true predictions over all predictions: 0.8571
 Percentage of false predictions over all prediction: 0.1429
 Percentage of true predictions over ground truth: 0.0167
+Time: 2.954603672027588
+--------------------------------
 JaccardMeasurement: Inverted Index method k=0.5 
-t= 3
-result= 3
-gt= 1076
 Percentage of true predictions over all predictions: 1.0
 Percentage of false predictions over all prediction: 0.0
 Percentage of true predictions over ground truth: 0.0028
+Time: 3.0478007793426514
+--------------------------------
 JaccardMeasurement: Inverted Index method k=0.6000000000000001 
-t= 1
-result= 1
-gt= 1076
 Percentage of true predictions over all predictions: 1.0
 Percentage of false predictions over all prediction: 0.0
 Percentage of true predictions over ground truth: 0.0009
+Time: 3.1159157752990723
+--------------------------------
 JaccardMeasurement: Inverted Index method k=0.7000000000000001 
-t= 0
-result= 0
-gt= 1076
 Percentage of true predictions over all predictions: 0
 Percentage of false predictions over all prediction: 0
 Percentage of true predictions over ground truth: 0.0
+Time: 3.0861992835998535
+--------------------------------
 JaccardMeasurement: Inverted Index method k=0.8 
-t= 0
-result= 0
-gt= 1076
 Percentage of true predictions over all predictions: 0
 Percentage of false predictions over all prediction: 0
 Percentage of true predictions over ground truth: 0.0
+Time: 3.0836033821105957
+--------------------------------
 JaccardMeasurement: Inverted Index method k=0.9 
-t= 0
-result= 0
-gt= 1076
 Percentage of true predictions over all predictions: 0
 Percentage of false predictions over all prediction: 0
 Percentage of true predictions over ground truth: 0.0
+Time: 3.0742783546447754
+--------------------------------
 JaccardMeasurement: Inverted Index method k=1.0 
-t= 0
-result= 0
-gt= 1076
 Percentage of true predictions over all predictions: 0
 Percentage of false predictions over all prediction: 0
 Percentage of true predictions over ground truth: 0.0
+Time: 3.128478765487671
