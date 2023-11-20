@@ -4,7 +4,7 @@ from evaluate import evaluate
 from dataloader.d02_01_loader import d02_loader
 
 # ----------------------------------------------------------------
-file_name = "results/exp01_20231120_1324.txt"
+file_name = "results/dt02/exp01_20231120_1448.txt"
 data_x, data_y, gt = d02_loader()
 
 list_of_predicts = []
